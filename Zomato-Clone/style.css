@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+#foodcard {
+    background-color: white;
+    width: 380px;
+    padding: 13px;
+    border-radius: 10px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.3s;
+    width: 30%;
+    height: 50px;
+}
+
+button:hover{
+    background-color: rgb(9, 245, 9);
+    border: rgb(9, 245, 9);
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#row {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
